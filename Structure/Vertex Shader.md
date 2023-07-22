@@ -17,3 +17,4 @@ We'll now discuss multiple examples that pertain to vertex shaders and their inp
 Examples
 1) [[UV visualization]]
 2) [[Normal visualization]]
+3) [[Vertex Skewing]]
