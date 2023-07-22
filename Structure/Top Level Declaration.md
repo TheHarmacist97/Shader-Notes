@@ -4,8 +4,8 @@ A shader declared as:  `Shader "Custom/Example"`  will be in the the Custom fold
 > [!caution] New Shaders
 > Newly created shaders will be created under the `Hidden` folder Unity will not display the `Hidden` folder, so remember to change this
 
-![[Pasted image 20230721110804.png]]
-![[Pasted image 20230721110828.png]]
+![[Hierarchy 1.png]]
+![[Hierarchy 2.png]]
 
 >[!Tip] Shader Hierarchy Management
 You can make subfolders by extending the declaration like this

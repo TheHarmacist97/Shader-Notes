@@ -14,5 +14,5 @@ The words `vert` and `frag` are meant to be user defined and can be changed, you
 >[!example]- Miscellaneous Pragma Directives
 >- `#pragma target _name_` - which shader target to compile to. See _Shader targets_ below for details.
 >- `#pragma only_renderers _space separated names_` - compile shader only for given renderers. By default shaders are compiled for all renderers. See _Renderers_ below for details.
->- `#pragma exclude_renderers _space separated names_` - do not compile shader for given renderers. By default shaders are compiled for all renderers. See _Renderers_ below for details.- `#pragma multi_compile …`_ - for working with [multiple shader variants](https://dev.rbcafe.com/unity/unity-5.3.3/en/Manual/SL-MultipleProgramVariants.html).
+>- `#pragma exclude_renderers _space separated names_` - do not compile shader for given renderers. By default shaders are compiled for all renderers. `#pragma multi_compile …`_ - for working with [multiple shader variants](https://dev.rbcafe.com/unity/unity-5.3.3/en/Manual/SL-MultipleProgramVariants.html).
 >- `#pragma enable_d3d11_debug_symbols` - generate debug information for shaders compiled for DirectX 11, this will allow you to debug shaders via Visual Studio 2012 (or higher) Graphics debugger.

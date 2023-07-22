@@ -14,7 +14,7 @@ Properties
     }
 ```
 
-The Inspectors of Unity render the above text as![[Pasted image 20230721121705.png]]
+The Inspectors of Unity render the above text as![[Exposed Properties.png]]
 
 >[!info]- Exposed Property Syntax
 >Any exposed property follows this syntax
