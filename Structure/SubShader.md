@@ -33,6 +33,3 @@ Shader "Examples/SinglePass"
 ```
 
 _Haven't really done anything with SubShader yet, will update this later_
-
-
-Next up, [[Pass|Passes]]

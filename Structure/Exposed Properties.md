@@ -22,5 +22,3 @@ The Inspectors of Unity render the above text as![[Exposed Properties.png]]
 >Check out the various types and modifiers in Shaderlab [here](https://docs.unity3d.com/Manual/SL-Properties.html) 
 
 Now that we can expose globally declared CG properties to the Unity Editor, we can also change them via scripts. Learn more about [[Updating Exposed Properties|modifying exposed properties value here]]
-
-Or continue reading about the Structure of a Shader File in Unity in [[SubShader|Subshaders]]

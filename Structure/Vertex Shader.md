@@ -1,3 +1,4 @@
+
 The **Vertex Shader** is the programmable Shader stage in the rendering pipeline that handles the processing of individual vertices.
 
 Basically, it runs on every available vertex on the mesh, and then runs transformations on the vertices. Usually it converts vertices from Object (local) positions to Clip Positions in the camera frustum.
@@ -18,3 +19,5 @@ Examples
 1) [[UV visualization]]
 2) [[Normal visualization]]
 3) [[Vertex Skewing]]
+
+#VertexShader

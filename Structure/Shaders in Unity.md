@@ -6,7 +6,7 @@ A Shader object is a Unity-specific way of working with shader programs; it is a
 
 ## Inside a Shader object
 
-A Shader object has a nested structure. It organizes information into structures called [[SubShader|SubShaders]] and [[Pass|Passes]]. It organizes shader programs into **shader variants**.
+A Shader object has a nested structure. It organizes information into structures called SubShaders and Passes. It organizes shader programs into **shader variants**.
 
 
 
@@ -41,17 +41,17 @@ class C,E internal-link;
 ```
 ## Shader Object
 
-Contains the Properties block and the SubShaders block. Also defines the name of the shader in the shader inspector and it's position in that hierarchy and provides shader fallbacks if Unity cannot run the given shader
+Contains the Properties block and the SubShaders block. Also defines the name of the shader in the shader inspector and it's position in that hierarchy and provides shader fallbacks if Unity cannot run the given shader.
 
 
 ## SubShader Block
+Contains one or more SubShaders, defines execution orders and Tags for those subshaders.
 
-Contains one or more SubShaders, defines execution orders and Tags for those subshaders
-[[SubShader|Read more here]]
+[Read more here](obsidian://open?vault=Shader%20Notes&file=SubShader)
 
 ## Passes Block
 Contains one or more passes. Each pass contains a CG/HLSL snippet that has the actual shader code. Can also be modified via Tags
 
-[[Pass|Read more here]]
+[Read more here](obsidian://open?vault=Shader%20Notes&file=Pass)
 
 Next up: [[Structure of a Shader File in Unity|Structure of shaders in detail]]

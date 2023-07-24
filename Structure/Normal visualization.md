@@ -114,3 +114,6 @@ Read about more vertex shader examples [[Vertex Shader|over here]]
 >>[!example]- Tangent
 >>Changing the Semantic of the normal float3 from `NORMAL` to `TANGENT` gives us this
 >>![[Tangents Vis.gif]] 
+
+
+#VertexShader 

@@ -10,5 +10,3 @@ A shader declared as:  `Shader "Custom/Example"`  will be in the the Custom fold
 >[!Tip] Shader Hierarchy Management
 You can make subfolders by extending the declaration like this
 `Shader "Custom/SubFolder/Example"`
-
-Next up [[Exposed Properties|We'll learn about exposed properties]]
